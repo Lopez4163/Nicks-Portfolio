@@ -1,0 +1,20 @@
+.experience-section {
+    padding: 20px;
+}
+.title {
+    margin:20px
+}
+.job{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 20px;
+}
+.job-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.work-date {
+    width: 100%;
+}
