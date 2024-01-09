@@ -48,8 +48,10 @@
 }
 .social-links-icons {
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: initial;
     justify-content: flex-start;
-    gap: 100px;
+    gap:30px;
 }
 a {
     text-decoration: none;
