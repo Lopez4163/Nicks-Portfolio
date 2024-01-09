@@ -14,7 +14,7 @@
 @media screen and (max-width: 430px) {
     .rightside-container {
         margin-top: -80px;
-        height: 430vh;
+        height: 600vh;
         width: 100%;
         text-align: left;
     }
