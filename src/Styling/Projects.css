@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 .project-image {
     height: 150px;
@@ -49,12 +50,40 @@
     align-items: center;
     text-align: center;
     gap: 10px;
+    flex-wrap: wrap;
+
 }
 .tech {
     border: 1px solid #008170;
     padding: 5px;
     border-radius: 5px;
 }
+.tech:hover {
+    background-color: #00695c;
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+}
+@media screen and (max-width: 1000px) {
+    .project-wrapper {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .project-details {
+        width: 100%;
+    }
+    .project-image {
+        height: 20vh;
+        width: 100%;
+    }
+    .tech-stack {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+}
+
 @media screen and (max-width: 430px) {
     .project-wrapper {
         flex-direction: column;
