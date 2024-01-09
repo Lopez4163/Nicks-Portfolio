@@ -1,6 +1,6 @@
 .app-container {
   display: flex;
-  background-color: #232D3F;
+  background-color: #0a1013;
   color: #03a28e;
   font-weight: bold;
   overflow: hidden;
@@ -11,4 +11,7 @@
     flex-direction: column;
   }
 }
+background-color: #232D3F;
+
+color: #03a28e;
 

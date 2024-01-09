@@ -36,7 +36,11 @@
     flex-direction: column;
     gap: 10px;
 }
-
+.shortcut {
+    font-size: 20px;
+    color: #03a28e;
+    transition: color 0.3s ease-in-out;
+}
 .shortcut:hover {
     color: #ffc107;
     cursor: pointer;
@@ -53,7 +57,7 @@ a {
 }
 i {
     font-size: 40px;
-    color: #ffc107;
+    color: #03a28e;
     transition: transform 0.3s ease-in-out;
 }
 i:hover {
