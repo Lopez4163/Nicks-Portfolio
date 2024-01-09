@@ -6,9 +6,10 @@
 .wrapper {
 }
 .education-container {
-    padding: 20px;
+    padding: 10px;
+    padding-top:0;
 }
-.education-section:hover {
+.education-block:hover {
     background-color: #00695c;
     color: #ffc107;
     transition: background-color 0.3s, color 0.3s;
@@ -28,6 +29,10 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    width: 25vh;
     height: 20vh;
-    margin: 10px;
+    border: 1px solid #008170;
+    box-shadow: grey 0px 0px 10px;
+    border-radius: 10px;
+    padding: 20px;
 }

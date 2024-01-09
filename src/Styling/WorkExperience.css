@@ -1,22 +1,28 @@
 .workexpereince-container-container {
     background-color: #232D3F;
 }
+.experience-section {
+    margin: 20px;
+  }
 .title {
     text-align: center;
-    font-size: large;
+    font-size: 25px;
 }
 .job{
     display: flex;
     flex-direction: row;
     margin: 20px;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #008170;
+    box-shadow: grey 0px 0px 10px;
 }
 .job:hover {
     background-color: #00695c;
     color: #ffc107;
     transition: background-color 0.3s, color 0.3s;
+
 }
 .workexpereince-container:hover .title {
     color: #ffc107;
@@ -26,6 +32,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 .job-skills {
     margin-bottom: 20px;
