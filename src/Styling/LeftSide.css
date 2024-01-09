@@ -36,9 +36,11 @@
     flex-direction: column;
     gap: 10px;
 }
+
 .shortcut:hover {
     color: #ffc107;
     cursor: pointer;
+    transform: scale(1.3);
 }
 .social-links-icons {
     display: flex;
@@ -51,10 +53,12 @@ a {
 }
 i {
     font-size: 40px;
-    color: #03a28e;
+    color: #ffc107;
+    transition: transform 0.3s ease-in-out;
 }
 i:hover {
-    color: #ffc107;
+    transform: scale(1.2);
+    color: #ffc107; /* Change the color on hover if needed */
     cursor: pointer;
 }
 @media screen and (max-width: 430px) {

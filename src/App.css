@@ -5,6 +5,7 @@
   font-weight: bold;
   overflow: hidden;
 }
+
 @media screen and (max-width: 430px) {
   .app-container {
     flex-direction: column;
