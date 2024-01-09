@@ -67,12 +67,31 @@ i:hover {
         margin-top: -90px;
         overflow-x: auto;
     }
+    .who-am-i {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        text-align: center;
+        margin-left: 50px;
+    }
     .social-links-icons {
         gap: 50px;
-        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        gap: 10px;
     }
     .index-anchors {
         gap: 5px;
+
     }
     .name {
         font-size: 30px;
