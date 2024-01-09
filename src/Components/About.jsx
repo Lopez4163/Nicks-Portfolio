@@ -20,6 +20,6 @@ const About = () => {
         </span>
     </section>
 </div>
-    )
+)
 }
 export default About

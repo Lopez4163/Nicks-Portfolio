@@ -1,19 +1,37 @@
-.experience-section {
-    padding: 20px;
+.workexpereince-container-container {
+    background-color: #232D3F;
 }
 .title {
-    margin:20px
+    text-align: center;
+    font-size: large;
 }
 .job{
     display: flex;
     flex-direction: row;
     margin: 20px;
     gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.job:hover {
+    background-color: #00695c;
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+}
+.workexpereince-container:hover .title {
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
 }
 .job-details {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.job-skills {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .work-date {
     width: 100%;

@@ -3,15 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
-.index-anchors{
-    display: flex;
-    flex-direction: column;
-}
 .leftside-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 100px;
+    padding: 50px;
     height: 100vh;
     width: 50%;
+}
+.who-am-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+.role {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+.quote {
+    margin-top: 5px;
+}
+.index-anchors{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shortcut:hover {
+    color: #ffc107;
+    cursor: pointer;
+}
+.social-links-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+a {
+    text-decoration: none;
+    color: #03a28e;
+}
+i {
+    font-size: 40px;
+    color: #03a28e;
+}
+i:hover {
+    color: #ffc107;
+    cursor: pointer;
+}
+@media screen and (max-width: 430px) {
+.leftside-container {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -90px;
+        overflow-x: hidden;
+    }
+    .social-links-icons {
+        gap: 50px;
+        overflow-x: hidden;
+    }
+    .index-anchors {
+        gap: 5px;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .quote {
+        font-size: 15px;
+    }
+    i {
+        font-size: 30px;
+    }
+
+
 }

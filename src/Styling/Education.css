@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+}
+.education-container {
+    padding: 20px;
+}
+.education-section:hover {
+    background-color: #00695c;
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+}
+.education-container:hover .title {
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+}
+.education-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 10px;
+}
+.education-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 20vh;
+    margin: 10px;
+}
