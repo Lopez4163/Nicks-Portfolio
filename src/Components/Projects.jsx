@@ -16,7 +16,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className='project-details'>
-                        <h4>Dojo Website</h4>
+                        <h4 className='project-title'>Dojo Website</h4>
                         <span className='project-summary'>
                             COMING SOON.....
                         </span>
@@ -25,8 +25,8 @@ const Projects = () => {
                         <span className='tech'>JavaScript</span>
                         <span className='tech'>HTML</span>
                         <span className='tech'>CSS</span>
-                        <span className='tech'>Node</span>
-                        <span className='tech'>Puppeteer</span>
+                        <span className='tech'>Python</span>
+                        <span className='tech'>Django</span>
                     </div>
                     </div>
                 </div>
@@ -39,9 +39,12 @@ const Projects = () => {
                     </a>
                     </div>
                     <div className='project-details'>
-                        <h4>UFC Fighter Library</h4>
+                        <h4 className='project-title'>UFC Fighter Library</h4>
                         <span className='project-summary'>
-                            Implemented web scraping with Puppeteer for data extraction from the UFC website, creating a JSON-based fighter database. Developed a responsive React front end with state management using React hooks. Designed a feature-rich navbar for enhanced user navigation and search capabilities. Engineered a subscription mechanism with Node.js for automated email confirmations. Created an interactive Fighter Card Display component for an engaging user experience, ensuring cross-browser compatibility and responsiveness. Delivered an immersive platform showcasing the UFC fighter roster through a dynamic interface, enhancing user engagement.
+                        <ul>
+                            <li>Utilizes Puppeteer for robust web scraping, creating a JSON-based fighter database by extracting and structuring data from the official UFC website.</li>
+                            <li>Orchestrates a responsive React front end with dynamic UI features, including a feature-rich navbar, search functionality, and interactive Fighter Card Display, ensuring an engaging user experience.</li>
+                        </ul>
                         </span>
                         <span className='tech-stack'>
                         <span className='tech'>React</span>
@@ -50,8 +53,9 @@ const Projects = () => {
                         <span className='tech'>CSS</span>
                         <span className='tech'>Node</span>
                         <span className='tech'>Puppeteer</span>
-                    </span>
+                        </span>
                     </div>
+
                 </div>
             </section>
             <section className='project'>
@@ -62,18 +66,25 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className='project-details'>
-                        <h4>Storage Database</h4>
+                        <h4 className='project-title'>Storage Database</h4>
                         <span className='project-summary'>
-                            Crafted an interactive storage app using Vite, React, CSS, and Node.js with MySQL. Features animated styling for a dynamic user experience. Users input item details stored in a MySQL database via a REST API. The engaging front-end interface allows seamless interaction and editing of stored data. Resulting in a functional and visually appealing storage application.
+                            <ul>
+                                <li>
+                                    Crafted a dynamic storage app with Vite, React, CSS, and Node.js, featuring animated styling for an engaging user experience.
+                                </li>
+                                <li>
+                                    Allows users to input and manage item details, stored in a MySQL database through a REST API, providing seamless interaction and editing capabilities for stored data.
+                                </li>
+                            </ul>
                         </span>
-                        <span className='tech-stack'>
-                        <span className='tech'>React</span>
-                        <span className='tech'>JavaScript</span>
-                        <span className='tech'>HTML</span>
-                        <span className='tech'>CSS</span>
-                        <span className='tech'>Node</span>
-                        <span className='tech'>Puppeteer</span>
-                    </span>
+                            <span className='tech-stack'>
+                            <span className='tech'>React</span>
+                            <span className='tech'>JavaScript</span>
+                            <span className='tech'>HTML</span>
+                            <span className='tech'>CSS</span>
+                            <span className='tech'>Node</span>
+                            <span className='tech'>Puppeteer</span>
+                        </span>
                     </div>
                 </div>
             </section>
@@ -83,13 +94,16 @@ const Projects = () => {
                         <img src={CryptoScam} className='project-image'/>
                     </a>
                     <div className='project-details'>
-                        <h4>Crypto Market Watch</h4>
+                        <h4 className='project-title'>Crypto Market Watch</h4>
                         <span className='project-summary'>
-                           Developed a dynamic cryptocurrency tracking app using Python, Flask, and BeautifulSoup4.
-                            Real-time updates: Leveraged Flask to provide live cryptocurrency prices from Coinbase.
-                            Web scraping: Used BeautifulSoup4 for accurate extraction of up-to-date coin prices.
-                            Automatic page refresh: Implemented for currency data accuracy upon each page load.
-                            Cloud hosting: Hosted on AWS EC2 for seamless accessibility and reliability.
+                           <ul>
+                                <li>
+                                    Developed using Python, Flask, and BeautifulSoup4 to provide live updates from Coinbase with automatic page refresh for accurate currency data.
+                                </li>
+                                <li>
+                                    Developed using Python, Flask, and BeautifulSoup4 to provide live updates from Coinbase with automatic page refresh for accurate currency data.
+                                </li>
+                            </ul>
                         </span>
                         <span className='tech-stack'>
                         <span className='tech'>React</span>

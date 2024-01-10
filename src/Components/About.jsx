@@ -3,7 +3,9 @@ import '../Styling/About.css'
 
 const About = () => {
     return (
+
     <div className='about-container'>
+        <span className='title'><h4>About</h4></span>
         <section className='about-section'>
         <span className='about-text'>
         During my time in the Marine Corp i realized i wanted to be involved in technology and building. I took the leap and ended down the rabbit hole and ended up as a Front End Developer

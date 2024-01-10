@@ -22,7 +22,11 @@
     background-color: #00695c;
     color: #ffc107;
     transition: background-color 0.3s, color 0.3s;
-
+}
+.job-summary li {
+    font-size: 15px;
+    display: flex;
+    margin: 10px;
 }
 .workexpereince-container:hover .title {
     color: #ffc107;
@@ -31,6 +35,7 @@
 .job-details {
     display: flex;
     flex-direction: column;
+    width: 80%;
     gap: 20px;
 
 }
@@ -41,8 +46,9 @@
     justify-content: space-evenly;
 }
 .work-date {
-    width: 100%;
+    width: 10rem;
 }
+
 @media screen and (max-width: 1000px) {
     .job {
         flex-direction: column;

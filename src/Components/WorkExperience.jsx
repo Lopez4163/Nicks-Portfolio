@@ -7,18 +7,20 @@ const WorkExperience = () => {
             <span className='title'><h4>Experience</h4></span>
             <section className='experience-section'>
                 <div className='job'>
-                    <div className='work-date'>2015-2020</div>
+                    <div className='work-date'>2014-2019</div>
                     <div className='job-details'>
                         <span className='job-org'>United States Marine Corps</span>
                         <span className='job-title'>Mobile Facility Technician</span>
-                        <span className='job-summary'>
-                            As a Mobile Facility Technician, I specialize in maintaining and repairing ISO containers and Mobile Facilities. In my role as a Collateral Duty Inspector, I supervise a team of 20 Marines, emphasizing precision and safety. My technical proficiency has honed my keen eye for detail.
-                        </span>
-                        <span className='job-skills'>
+                        <ul className='job-summary'>
+                            <li>Specialized in ISO container and Mobile Facility maintenance, ensuring their optimal operational status.</li>
+                            <li>Led a team of 20 Marines, emphasizing precision and safety in all operational aspects as a Collateral Duty Inspector.</li>
+                            <li>Applied advanced technical skills and a keen eye for detail to effectively identify and address issues in maintenance and repair operations.</li>
+                        </ul>
+                        <div className='job-skills'>
                             <span className='tech'>Team Work</span>
                             <span className='tech'>Project Management</span>
-                            <span className='tech'>Grit</span>
-                        </span>
+                            <span className='tech'>LeaderShip</span>
+                        </div>
                     </div>
                 </div>
                 <div className='job'>
@@ -26,16 +28,18 @@ const WorkExperience = () => {
                     <div className='job-details'>
                         <span className='job-org'>Converse Inc.</span>
                         <span className='job-title'>Lead Sales Associate</span>
-                        <span className='job-summary'>
-                            As a Sales Associate, I provided customer assistance, operated the cash register, and organized the stockroom efficiently. This enhanced my communication and organizational skills in a fast-paced retail setting. I also excelled in training new employees.
-                        </span>
-                        <span className='job-skills'>
-                            <span className='tech'>Team Work</span>
-                            <span className='tech'>Project Management</span>
-                            <span className='tech'>Grit</span>
-                        </span>
+                        <ul className='job-summary'>
+                            <li>Provided customer assistance, operated the cash register, and efficiently organized the stockroom as a Sales Associate.</li>
+                            <li>Enhanced communication and organizational skills in a fast-paced retail setting and excelled in training new employees.</li>
+                        </ul>
+                        <div className='job-skills'>
+                            <span className='tech'>Customer Service</span>
+                            <span className='tech'>Sales</span>
+                            <span className='tech'>Training</span>
+                        </div>
                     </div>
                 </div>
+
                 {/*<div className='job'>*/}
                 {/*    <div className='work-date'>2015-2020</div>*/}
                 {/*    <div className='job-details'>*/}
