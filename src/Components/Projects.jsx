@@ -4,6 +4,9 @@ import CryptoScam from '../assets/CryptoScam.png'
 import StorageApp from '../assets/StorageApp.png'
 import UFCApp from '../assets/UFCApp.png'
 import DojoApp from '../assets/DojoApp.png'
+import storageGif from '../assets/storage-gif.gif'
+import ufcGif from '../assets/ufc-gif.gif'
+import dojoGif from '../assets/dojo-gif.gif'
 const Projects = () => {
     return (
         <div className='project-container'>
@@ -12,7 +15,7 @@ const Projects = () => {
                 <div className='project-wrapper'>
                     <div className='image-wrapper'>
                         <a>
-                            <img src={DojoApp} className='project-image'/>
+                            <img src={dojoGif} className='project-image'/>
                         </a>
                     </div>
                     <div className='project-details'>
@@ -35,7 +38,7 @@ const Projects = () => {
                 <div className='project-wrapper'>
                     <div className='image-wrapper'>
                     <a href="https://lopez4163.github.io/ufcApp/">
-                        <img src={UFCApp} className='project-image'/>
+                        <img src={ufcGif} className='project-image'/>
                     </a>
                     </div>
                     <div className='project-details'>
@@ -62,7 +65,7 @@ const Projects = () => {
                 <div className='project-wrapper'>
                     <div className='image-wrapper'>
                         <a href='https://lopez4163.github.io/storageApp2.0/'>
-                            <img src={StorageApp} className='project-image'/>
+                            <img src={storageGif} className='project-image'/>
                         </a>
                     </div>
                     <div className='project-details'>
@@ -90,9 +93,9 @@ const Projects = () => {
             </section>
             <section className='project'>
                 <div className='project-wrapper'>
-                    <a className='image-wrapper'>
+                    <span className='image-wrapper'>
                         <img src={CryptoScam} className='project-image'/>
-                    </a>
+                    </span>
                     <div className='project-details'>
                         <h4 className='project-title'>Crypto Market Watch</h4>
                         <span className='project-summary'>

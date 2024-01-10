@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import '../Components/RightSide.jsx'
 import '../Styling/LeftSide.css'
 const LeftSide = () => {
+    useEffect(() => {
+        const defaultAnchor = document.getElementById('defaultAnchor');
+        if (defaultAnchor) {
+            defaultAnchor.click();
+        }
+    }, [])
     return (
         <div className='leftside-container'>
             <section className='who-am-i-container'>
@@ -18,7 +24,7 @@ const LeftSide = () => {
                     <h4><a href="#about" className='shortcut'>About</a></h4>
                     <h4><a href="#education" className='shortcut'>Education</a></h4>
                     <h4><a href="#experience" className='shortcut'>Experience</a></h4>
-                    <h4><a href="#projects" className='shortcut'>Projects</a></h4>
+                    <h4><a href="#projects" className='shortcut' id="defaultAnchor" >Projects</a></h4>
                 </div>
             </section>
             <section className='social-links'>
