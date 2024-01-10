@@ -12,7 +12,6 @@
     width: 50%;
 }
 .who-am-i {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,9 +48,9 @@
 .social-links-icons {
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: initial;
+    flex-flow: wrap-reverse;
     justify-content: flex-start;
-    gap:30px;
+    gap:35px;
 }
 a {
     text-decoration: none;
