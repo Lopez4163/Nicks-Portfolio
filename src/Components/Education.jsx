@@ -14,8 +14,6 @@ const Education = () => {
                     <span>2019-Present</span>
                 </div>
                 <div className='education-block'>
-                    <span>CodeUp Academy</span>
-                    <span>SA,TX</span>
                     <span>Full Stack Web Development Course</span>
                     <span>2023-2024</span>
                 </div>

@@ -7,6 +7,7 @@ import DojoApp from '../assets/DojoApp.png'
 import storageGif from '../assets/storage-gif.gif'
 import ufcGif from '../assets/ufc-gif.gif'
 import dojoGif from '../assets/dojo-gif.gif'
+import nicheNest from '../assets/nicheNest.gif'
 const Projects = () => {
     return (
         <div className='project-container'>
@@ -30,6 +31,41 @@ const Projects = () => {
                         <span className='tech'>CSS</span>
                         <span className='tech'>Python</span>
                         <span className='tech'>Django</span>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section className='project'>
+                <div className='project-wrapper'>
+                    <div className='image-wrapper'>
+                        <a href="https://nichenest.onrender.com">
+                            <img src={nicheNest} className='project-image'/>
+                        </a>
+                    </div>
+                    <div className='project-details'>
+                        <h4 className='project-title'>Niche Nest</h4>
+                        <span className='project-summary'>
+                        <ul>
+                            <li>
+                                I worked on a project called Niche Nest, a freelancing website 
+                                that allows users to browse and book services from freelancers, 
+                                as well as become freelancers and advertise their services.
+                            </li>
+                            <li>
+                                The front end, 
+                                developed with React and Tailwind CSS, offers a visually dynamic user experience. 
+                                On the backend, Node.js, PostgreSQL, and Prisma ORM power the application, 
+                                enabling users to input, store, and retrieve service details through a REST API. 
+                            </li>
+                        </ul>
+                        </span>
+                        <div className='tech-stack'>
+                        <span className='tech'>React</span>
+                        <span className='tech'>JavaScript</span>
+                        <span className='tech'>HTML</span>
+                        <span className='tech'>Tailwind</span>
+                        <span className='tech'>Node</span>
+                        <span className='tech'>Prisma</span>
                     </div>
                     </div>
                 </div>
