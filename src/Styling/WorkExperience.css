@@ -1,66 +1,68 @@
 .workexpereince-container-container {
-    background-color: #232D3F;
+  background-color: #232d3f;
 }
 .experience-section {
-    margin: 20px;
-  }
-.title {
-    text-align: center;
-    font-size: 25px;
+  margin: 20px;
 }
-.job{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    gap: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #008170;
-    box-shadow: grey 0px 0px 10px;
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+.job {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #008170;
+  box-shadow: grey 0px 0px 10px;
 }
 .job:hover {
-    background-color: #00695c;
-    color: #ffc107;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: #00695c;
+  color: #ffc107;
+  transition: background-color 0.3s, color 0.3s;
+}
+.job-org {
+  font-size: larger;
 }
 .job-summary li {
-    font-size: 15px;
-    display: flex;
-    margin: 10px;
+  font-size: 15px;
+  display: flex;
+  margin: 10px;
 }
 .workexpereince-container:hover .title {
-    color: #ffc107;
-    transition: background-color 0.3s, color 0.3s;
+  color: #ffc107;
+  transition: background-color 0.3s, color 0.3s;
 }
 .job-details {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    gap: 20px;
-
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
 }
 .job-skills {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .work-date {
-    width: 10rem;
+  width: 10rem;
 }
 
 @media screen and (max-width: 1000px) {
-    .job {
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
-        margin: 10px;
-    }
-    .job-details {
-        width: 100%;
-    }
-    .job-skills {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .job {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .job-details {
+    width: 100%;
+  }
+  .job-skills {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
