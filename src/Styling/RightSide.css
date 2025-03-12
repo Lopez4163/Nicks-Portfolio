@@ -5,13 +5,15 @@
 
 }
 .rightside-container {
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     height: 100vh;
     box-sizing: border-box;
     overflow-y: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+    padding-top: 40px;
 }
 /* Scroll bar */
 ::-webkit-scrollbar {
@@ -43,6 +45,10 @@
         height: 430vh;
         width: 100%;
         text-align: left;
+    }
+
+    .rightside-container::-webkit-scrollbar {
+        display: none;
     }
 
 

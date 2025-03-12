@@ -51,13 +51,13 @@
     flex-wrap: wrap;
 }
 .project li {
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 .project-summary {
     margin-bottom: 5px;
 }
 .project-title {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .tech-stack {

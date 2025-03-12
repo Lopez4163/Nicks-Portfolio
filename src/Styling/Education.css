@@ -49,6 +49,9 @@
   gap: 5px;
 }
 @media screen and (max-width: 1000px) {
+  .education-container{
+    overflow-y: hidden;
+  }
   .education-section {
     flex-direction: column;
     gap: 10px;

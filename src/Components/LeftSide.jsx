@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 import "../Components/RightSide.jsx"
 import "../Styling/LeftSide.css"
 const LeftSide = () => {
-  useEffect(() => {
-    const defaultAnchor = document.getElementById("defaultAnchor")
-    if (defaultAnchor) {
-      defaultAnchor.click()
-    }
-  }, [])
+  // useEffect(() => {
+  //   const defaultAnchor = document.getElementById("defaultAnchor")
+  //   if (defaultAnchor) {
+  //     defaultAnchor.click()
+  //   }
+  // }, [])
   return (
     <div className="leftside-container">
       <section className="who-am-i-container">

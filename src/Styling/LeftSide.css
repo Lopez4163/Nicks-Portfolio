@@ -76,6 +76,7 @@ i:hover {
     justify-content: space-around;
     margin-top: -90px;
     overflow-x: auto;
+    overflow: hidden;
   }
   .who-am-i {
     margin-top: 30px;
