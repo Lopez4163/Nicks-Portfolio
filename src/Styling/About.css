@@ -19,6 +19,7 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+
 @media screen and (max-width: 430px) {
   .about-container {
     overflow-y: hidden;

@@ -14,7 +14,7 @@ const LeftSide = () => {
       <section className="who-am-i-container">
         <div className="who-am-i">
           <h1 className="name">Nicholas Lopez</h1>
-          <h2 className="role">Web Developer</h2>
+          <h2 className="role">IT Tech and Developer</h2>
           <h4 className="quote">
             Passionate about coding, I enjoy crafting digital solutions with
             creativity. Committed to perpetual growth, I thrive in the

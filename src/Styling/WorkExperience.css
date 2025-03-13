@@ -6,7 +6,7 @@
 }
 .title {
   text-align: center;
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 .job {
   display: flex;
@@ -52,6 +52,23 @@
 }
 .work-date {
   width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+
+
+.date-employ {
+  align-self: flex-start;
+  font-size: 1.1rem;
+}
+
+.work-img {
+  
+  width: 7rem;
+  height: 7rem;
 }
 
 @media screen and (max-width: 430px) {

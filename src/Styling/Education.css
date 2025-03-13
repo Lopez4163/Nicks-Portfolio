@@ -13,8 +13,9 @@
 }
 
 .education-container {
-  padding: 10px;
+  padding: .5rem;
   padding-top: 0;
+  
 }
 .education-block:hover {
   background-color: #00695c;
@@ -36,17 +37,23 @@
   text-align: center;
   align-items: center;
   gap: 5px;
-  width: 90vh;
+  width: 100%;
   height: 20vh;
   border: 1px solid #008170;
   box-shadow: grey 0px 0px 10px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 6rem;
 }
 .edu-block {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: .5rem;
+}
+
+.edu-img {
+  width: 6.5rem;
+  height: 5rem ;
+  border-radius: 10%;
 }
 @media screen and (max-width: 1000px) {
   .education-container{

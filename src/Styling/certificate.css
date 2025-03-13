@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .institution-title {
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+  .years-attend {
+    font-size: 15px;
+  }
+  
+  .education-container {
+    padding: 0.5rem;
+    padding-top: 0;
+  }
+  
+  .education-block:hover {
+    background-color: #00695c;
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .education-container:hover .title {
+    color: #ffc107;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .education-section {
+    display: flex;
+    margin: 25px;
+    border-radius: 10px;
+  }
+  
+  .education-block {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid #008170;
+    box-shadow: grey 0px 0px 10px;
+    border-radius: 10px;
+    padding: 6rem;
+  }
+  
+  .edu-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .edu-img {
+    width: 6.5rem;
+    height: 5rem;
+    border-radius: 10%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .education-container {
+      overflow-y: hidden;
+    }
+  
+    .education-section {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .education-block {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
